@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #004d7a;
+    color: white;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 36px;
+    margin: 10px 0 0;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Best Views */
+.best-views {
+    text-align: center;
+}
+
+.best-views .view-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.best-views .view-items div {
+    text-align: center;
+    max-width: 150px;
+}
+
+.best-views img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Top Destinations */
+.top-destinations {
+    text-align: center;
+}
+
+.top-destinations .destination-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.top-destinations img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Description */
+.description {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Gallery */
+.gallery {
+    text-align: center;
+}
+
+.gallery .gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}

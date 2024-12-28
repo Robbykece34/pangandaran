@@ -67,6 +67,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pemesanan.php">Pemesanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="daftar.php">Daftar Pemesanan</a>
             </ul>
           </li>
         </ul>
